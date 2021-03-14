@@ -81,6 +81,10 @@ dependencies {
 
     // Youtube content page transform
     compile 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar'
+    
+    // AWS Amplify
+    implementation 'com.amplifyframework:aws-api:1.17.0'
+    implementation 'com.amplifyframework:aws-datastore:1.17.0'
 }
 
 apply plugin: 'com.google.gms.google-services'
